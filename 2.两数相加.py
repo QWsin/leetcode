@@ -6,7 +6,7 @@
 # https://leetcode-cn.com/problems/add-two-numbers/description/
 #
 # algorithms
-# Medium (36.63%)
+# Medium (36.63%)sdsds
 # Likes:    3907
 # Dislikes: 0
 # Total Accepted:    324.9K
@@ -28,12 +28,15 @@
 #
 #
 
+# Definition for singly-linked list.
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
 # @lc code=start
-#Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
 
 
 class Solution:
@@ -46,10 +49,10 @@ class Solution:
             cur = cur.next
             if l1 is not None:
                 sum += l1.val
-                l1=l1.next
+                l1 = l1.next
             if l2 is not None:
                 sum += l2.val
-                l2=l2.next
+                l2 = l2.next
             cur.val = sum % 10
             sum //= 10
         if sum > 0:
