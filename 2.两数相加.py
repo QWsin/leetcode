@@ -6,7 +6,7 @@
 # https://leetcode-cn.com/problems/add-two-numbers/description/
 #
 # algorithms
-# Medium (36.63%)sdsds
+# Medium (36.63%)
 # Likes:    3907
 # Dislikes: 0
 # Total Accepted:    324.9K
